@@ -24,17 +24,24 @@
 	
 <script type="text/javascript">
 $(document).ready(function(){
-if(window.location.href=="http://www.datadesire.com/#blog")
+if(window.location.href=="http://datadesire.com/#blog")
 {
-$("#sidebar").animate({width:'33.3333%'},'slow');
+$("#sidebar").animate({width:'33.3333%'});
 }
+if(window.location.href=="http://datadesire.com")
+{
+$("#sidebar").css({width:'100%'});
+}
+});/*
+$(document).ready(function(){
+if(window.location.href=="http://datadesire.com")
+{
 $("#sidebar").css({width:'100%'});
 $("#btnblog").click(function(){
 $("#sidebar").animate({width:'33.3333%'},'slow');
 });
-
-
-});
+}
+});*/
 	
 </script>
 	</head>
@@ -245,3 +252,4 @@ $("#sidebar").animate({width:'33.3333%'},'slow');
     
 </body>
 </html>
+
