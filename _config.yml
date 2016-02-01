@@ -1,0 +1,40 @@
+# This is the default format.
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:title
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
+markdown: kramdown
+
+highlighter: false
+paginate: 20 # pagination based on number of posts
+paginate_path: "page/:num"
+
+gems : [ "jekyll-paginate", "jekyll-redirect-from" ]
+
+
+# These paths are to the main pages Jekyll-Bootstrap ships with.
+# Some JB helpers refer to these paths; change them here if needed.
+#
+categories_path : categories.html
+tags_path : tags.html
+
+BASE_PATH : http://www.datadesire.com
+
+
+
+
+
+title : DataDesire
+
+
+
+author:
+  name: Pavan Kumar Varma
+  role: By An Absolute DataGeek
+  email: datadesire9@gmail.com
+  github: pavanIntel
+  twitter: pavanIntel
+  facebook: pavankumarvarma222
+  stackoverflow : http://stackoverflow.com/users/2709884/pavan-kumar-varma
+
+  bio: "Data Science &#x25cf; Java and Spring &#x25cf; ElasticSearch &#x25cf; BigData &#x25cf; Machine Learning "
+  icon: /assets/media/DataDesire.png
